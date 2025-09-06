@@ -1,0 +1,8 @@
+{
+  "name": "Manual Window Thermostat",
+  "content_in_root": false,
+  "domains": ["climate"],
+  "country": ["all"],
+  "homeassistant": ">=2022.0.0",
+  "render_readme": true
+}
