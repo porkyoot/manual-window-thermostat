@@ -188,7 +188,6 @@ class ManualWindowThermostat(ClimateEntity):
         else:
             self.suggestion = 'close'
         
-        if 
         # Only send notification if window state is not already in the suggested state
         if self.window not in ['open', 'close'] or self.window != self.suggestion:
             # If suggestion changed and notification entity is set, send notification
