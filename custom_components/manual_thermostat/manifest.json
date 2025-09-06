@@ -1,0 +1,11 @@
+{
+  "domain": "manual_window_thermostat",
+  "name": "Manual Window Thermostat",
+  "version": "0.1.0",
+  "documentation": "https://www.home-assistant.io/integrations/climate/",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@porkyoot"],
+  "config_flow": true
+}
+

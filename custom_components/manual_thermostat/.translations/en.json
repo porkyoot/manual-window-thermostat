@@ -1,0 +1,26 @@
+{
+  "title": "Manual Window Thermostat",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Manual Window Thermostat Setup",
+        "description": "Configure your manual thermostat integration. Set up sensors, window or cover entities, weather data, and notification services to enable intelligent temperature and window management.",
+        "data": {
+          "name": "Thermostat Name",
+          "window_entity_id": "Window Sensor or Cover",
+          "temperature_sensor_entity_id": "Inside Temperature Sensor",
+          "weather_entity_id": "Weather Entity",
+          "outside_temperature_sensor_entity_id": "Outside Temperature Sensor",
+          "notification_entity_id": "Notification Service",
+          "tolerance": "Temperature Tolerance",
+          "wind_threshold": "Wind Threshold with rain (km/h)",
+          "high_wind_threshold": "High Wind Threshold (km/h)"
+        }
+      }
+    },
+    "error": {},
+    "abort": {}
+  },
+  "options": {},
+  "notification.suggestion": "Thermostat '{name}' suggests to {suggestion} the window."
+}

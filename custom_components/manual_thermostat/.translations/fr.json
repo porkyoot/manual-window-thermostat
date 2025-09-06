@@ -1,0 +1,26 @@
+{
+  "title": "Thermostat Fenêtre Manuel",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configuration du Thermostat Fenêtre Manuel",
+        "description": "Configurez l'intégration de votre thermostat manuel. Configurez les capteurs, les entités de fenêtre ou de couverture, les données météorologiques et les services de notification pour permettre une gestion intelligente de la température et des fenêtres.",
+        "data": {
+          "name": "Nom du thermostat",
+          "window_entity_id": "Capteur ou volet de fenêtre",
+          "temperature_sensor_entity_id": "Capteur de température intérieure",
+          "weather_entity_id": "Entité météo",
+          "outside_temperature_sensor_entity_id": "Capteur de température extérieure",
+          "notification_entity_id": "Service de notification",
+          "tolerance": "Tolérance de température",
+          "wind_threshold": "Seuil de vent et pluie (km/h)",
+          "high_wind_threshold": "Seuil de vent fort (km/h)"
+        }
+      }
+    },
+    "error": {},
+    "abort": {}
+  },
+  "options": {},
+  "notification.suggestion": "Le thermostat '{name}' suggère de {suggestion} la fenêtre."
+}
